@@ -6,8 +6,73 @@
   <title>Contact - CréaNova</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="font-sans text-gray-900">
-  
+<body class="font-sans text-gray-900 py-15 m-9 bg-gray-50   ">
+  <div class="container mx-auto px-4">
+    <h2 class="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-8 text-indigo-600">Nous Contacter</h2>
+    <p class="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
+      Vous avez un projet en tête ou simplement une question ? N'hésitez pas à nous contacter via le formulaire ci-dessous. Nous serons ravis de vous répondre dans les plus brefs délais.
+    </p>
+    <a 
+          href="index.html" 
+          class="inline-block bg-indigo-600 hover:bg-blue-700 text-white font-semibold py-3 px-5 rounded-lg transition duration-300 ease-in-out m-9 object-center flex place-self-center "
+        >
+          Retour à l'accueil
+        </a>
+
+    <div class="max-w-xl mx-auto bg-white p-8 rounded-lg shadow-lg ">
+      <form action="#" method="POST" class="space-y-6">
+        <div>
+          <label for="name" class="block text-sm font-medium text-gray-700">Nom Complet</label>
+          <input 
+            type="text" 
+            name="name" 
+            id="name" 
+            autocomplete="name"
+            class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
+            placeholder="Votre nom"
+            required
+          >
+        </div>
+
+        <div>
+          <label for="email" class="block text-sm font-medium text-gray-700">Adresse Email</label>
+          <input 
+            type="email" 
+            name="email" 
+            id="email" 
+            autocomplete="email"
+            class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
+            placeholder="votre.email@exemple.com"
+            required
+          >
+        </div>
+
+        <div>
+          <label for="message" class="block text-sm font-medium text-gray-700">Votre Message</label>
+          <textarea 
+            name="message" 
+            id="message" 
+            rows="5"
+            class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
+            placeholder="Décrivez votre projet ou posez votre question ici..."
+            required
+          ></textarea>
+        </div>
+
+        <div>
+          <button 
+            type="submit" 
+            class="w-full flex justify-center py-3 px-4 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition duration-300 ease-in-out"
+          >
+            Envoyer le message
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <footer class="bg-gray-900 text-gray-300 py-8 text-center m-9">
+      <p>© 2025 CréaNova - Tous droits réservés</p>
+    </footer>
 
 </body>
 </html>
