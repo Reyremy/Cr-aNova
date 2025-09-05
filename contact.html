@@ -1,86 +1,97 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact - CréaNova</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - CréaNova</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="font-sans text-gray-900 bg-gray-50   ">
-  <header class="bg-white shadow-md sticky top-0 z-50">
-      <div class="max-w-6xl mx-auto flex justify-between items-center p-4">
-        <h1 class="text-2xl font-bold text-indigo-600  hover:scale-105 ">CréaNova</h1>
-        <nav class="space-x-6">
-          <a href="index.html" class="hover:text-indigo-600">Accueil</a>
-          <a href="about.html" class="hover:text-indigo-600">À propos</a>
-          <a href="contact.html" class="hover:text-indigo-600">Contact</a>
-        </nav>
-      </div>
+<body class="font-sans text-gray-900 bg-gray-50">
+
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto flex justify-between items-center p-4">
+            <h1 class="text-2xl font-bold text-indigo-600 hover:scale-105">CréaNova</h1>
+            <nav class="space-x-6">
+                <a href="index.html" class="hover:text-indigo-600">Accueil</a>
+                <a href="about.html" class="hover:text-indigo-600">À propos</a>
+                <a href="contact.html" class="hover:text-indigo-600">Contact</a>
+            </nav>
+        </div>
     </header>
-  <div class="container mx-auto px-4">
-    <h2 class="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-8 text-indigo-600 p-9">Nous Contacter</h2>
-    <p class="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
-      Vous avez un projet en tête ou simplement une question ? N'hésitez pas à nous contacter via le formulaire ci-dessous. Nous serons ravis de vous répondre dans les plus brefs délais.
-    </p>
-    <a 
-          href="index.html" 
-          class="inline-block bg-indigo-600 hover:bg-blue-700 text-white font-semibold py-3 px-5 rounded-lg transition duration-300 ease-in-out m-9 object-center flex place-self-center "
-        >
-          Retour à l'accueil
-        </a>
 
-    <div class="max-w-xl mx-auto bg-white p-8 rounded-lg shadow-lg ">
-      <form action="#" method="POST" class="space-y-6">
-        <div>
-          <label for="name" class="block text-sm font-medium text-gray-700">Nom Complet</label>
-          <input 
-            type="text" 
-            name="name" 
-            id="name" 
-            autocomplete="name"
-            class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
-            placeholder="Votre nom"
-            required
-          >
-        </div>
+    <div class="container mx-auto px-4 py-16">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-4 text-indigo-600">Nous Contacter</h2>
+            <p class="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
+                Vous avez un projet en tête ou simplement une question ? N'hésitez pas à nous contacter via le formulaire ci-dessous. Nous serons ravis de vous répondre dans les plus brefs délais.
+            </p>
 
-        <div>
-          <label for="email" class="block text-sm font-medium text-gray-700">Adresse Email</label>
-          <input 
-            type="email" 
-            name="email" 
-            id="email" 
-            autocomplete="email"
-            class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
-            placeholder="votre.email@exemple.com"
-            required
-          >
-        </div>
+            <div class="md:flex md:space-x-8">
 
-        <div>
-          <label for="message" class="block text-sm font-medium text-gray-700">Votre Message</label>
-          <textarea 
-            name="message" 
-            id="message" 
-            rows="5"
-            class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
-            placeholder="Décrivez votre projet ou posez votre question ici..."
-            required
-          ></textarea>
-        </div>
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-4">Informations</h3>
+                    <div class="space-y-6">
+                        <div class="flex items-start space-x-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="32" width="32" viewBox="0 0 640 640"><!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path fill="#5a3da9" d="M341.8 72.6C329.5 61.2 310.5 61.2 298.3 72.6L74.3 280.6C64.7 289.6 61.5 303.5 66.3 315.7C71.1 327.9 82.8 336 96 336L112 336L112 512C112 547.3 140.7 576 176 576L464 576C499.3 576 528 547.3 528 512L528 336L544 336C557.2 336 569 327.9 573.8 315.7C578.6 303.5 575.4 289.5 565.8 280.6L341.8 72.6zM304 384L336 384C362.5 384 384 405.5 384 432L384 528L256 528L256 432C256 405.5 277.5 384 304 384z"/></svg>
+                            <div>
+                                <p class="font-semibold text-gray-800">Adresse</p>
+                                <p class="text-gray-600">123 Rue de l'Innovation, 75000 Paris, France</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="32" width="32" viewBox="0 0 640 640"><!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path fill="#5a3da9" d="M224.2 89C216.3 70.1 195.7 60.1 176.1 65.4L170.6 66.9C106 84.5 50.8 147.1 66.9 223.3C104 398.3 241.7 536 416.7 573.1C493 589.3 555.5 534 573.1 469.4L574.6 463.9C580 444.2 569.9 423.6 551.1 415.8L453.8 375.3C437.3 368.4 418.2 373.2 406.8 387.1L368.2 434.3C297.9 399.4 241.3 341 208.8 269.3L253 233.3C266.9 222 271.6 202.9 264.8 186.3L224.2 89z"/></svg>
+                            <div>
+                                <p class="font-semibold text-gray-800">Téléphone</p>
+                                <p class="text-gray-600">+33 1 23 45 67 89</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-indigo-600 flex-shrink-0" viewBox="0 0 512 512"><path fill="#5a3da9" d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176L0 400c0 26.5 21.5 48 48 48H464c26.5 0 48-21.5 48-48V176L294.4 352c-15.5 11.6-37.7 11.6-53 0L0 176z"/></svg>
+                            <div>
+                                <p class="font-semibold text-gray-800">Email</p>
+                                <p class="text-gray-600">contact@creanova.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-        <div>
-          <button 
-            type="submit" 
-            class="w-full flex justify-center py-3 px-4 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-700 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition duration-300 ease-in-out"
-          >
-            Envoyer le message
-          </button>
+                <div class="md:w-1/2">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-4">Formulaire de contact</h3>
+                    <div class="bg-white p-8 rounded-lg shadow-lg">
+                        <form action="#" method="POST" class="space-y-6">
+                            <div>
+                                <label for="name" class="block text-sm font-medium text-gray-700">Nom Complet</label>
+                                <input type="text" name="name" id="name" autocomplete="name"
+                                    class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                                    placeholder="Votre nom" required>
+                            </div>
+                            <div>
+                                <label for="email" class="block text-sm font-medium text-gray-700">Adresse Email</label>
+                                <input type="email" name="email" id="email" autocomplete="email"
+                                    class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                                    placeholder="votre.email@exemple.com" required>
+                            </div>
+                            <div>
+                                <label for="message" class="block text-sm font-medium text-gray-700">Votre Message</label>
+                                <textarea name="message" id="message" rows="5"
+                                    class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                                    placeholder="Décrivez votre projet ou posez votre question ici..." required></textarea>
+                            </div>
+                            <div>
+                                <button type="submit"
+                                    class="w-full flex justify-center py-3 px-4 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition duration-300 ease-in-out">
+                                    Envoyer le message
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
         </div>
-      </form>
     </div>
-  </div>
-  <footer class="bg-gray-900 text-gray-400 py-12 m-9">
+  
+  <footer class="bg-gray-900 text-gray-400 py-12  mb-0">
   <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-3 gap-8">
     <div>
       <h3 class="text-lg font-semibold text-white mb-4">CréaNova</h3>
